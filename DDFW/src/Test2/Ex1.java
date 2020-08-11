@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class Ex1 
 {
    
-	public static void main(String[] args) 
+	public static void main(String[] args) throws InterruptedException 
 	{
 		
 		
@@ -25,6 +25,8 @@ public class Ex1
 		WebDriverWait wait = new WebDriverWait(driver, 30);
 		
 		driver.manage().window().maximize();
+		
+		Thread.sleep(500);
 		
 		driver.findElement(By.id("open_loginpp")).click();
 		
