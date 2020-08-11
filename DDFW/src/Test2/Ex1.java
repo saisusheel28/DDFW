@@ -22,7 +22,7 @@ public class Ex1
 		
 		driver.get("https://www.telugumatrimony.com/#");
 		
-		WebDriverWait wait = new WebDriverWait(driver, 30);
+		WebDriverWait wait = new WebDriverWait(driver, 40);
 		
 		driver.manage().window().maximize();
 		
