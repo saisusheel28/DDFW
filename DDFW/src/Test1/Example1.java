@@ -56,12 +56,12 @@ public class Example1
 					str = c.getStringCellValue();
 					
 					System.out.println(str);
-					
-					
-					
 					break;
 					
 				case Cell.CELL_TYPE_NUMERIC:
+					
+					Thread.sleep(500);
+
 					
 					str = NumberToTextConverter.toText(c.getNumericCellValue());
 					
