@@ -51,6 +51,8 @@ public class Example1
 				{
 				case Cell.CELL_TYPE_STRING:
 					
+					Thread.sleep(500);
+					
 					str = c.getStringCellValue();
 					
 					System.out.println(str);
