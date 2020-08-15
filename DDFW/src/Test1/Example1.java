@@ -58,6 +58,7 @@ public class Example1
 					System.out.println(str);
 					
 					
+					
 					break;
 					
 				case Cell.CELL_TYPE_NUMERIC:
