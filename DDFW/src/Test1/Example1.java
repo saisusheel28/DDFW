@@ -60,6 +60,7 @@ public class Example1
 					
 				case Cell.CELL_TYPE_NUMERIC:
 					
+					
 					Thread.sleep(5000);
 
 					
