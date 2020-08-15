@@ -44,6 +44,7 @@ public class Example1
 		   
 		   String  str = c.getStringCellValue();
 		   
+			Thread.sleep(500);
 		   
 		   if (r != null) 
 			{
