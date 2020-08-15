@@ -34,7 +34,7 @@ public class Example1
 		
 			XSSFRow r = s.getRow(i);
 			
-			Thread.sleep(500);
+			Thread.sleep(5000);
 			int cc = r.getLastCellNum();
 			
 		for (int j = 0; j < cc; j++)
@@ -51,7 +51,7 @@ public class Example1
 				{
 				case Cell.CELL_TYPE_STRING:
 					
-					Thread.sleep(500);
+					Thread.sleep(5000);
 					
 					str = c.getStringCellValue();
 					
@@ -60,7 +60,7 @@ public class Example1
 					
 				case Cell.CELL_TYPE_NUMERIC:
 					
-					Thread.sleep(500);
+					Thread.sleep(5000);
 
 					
 					str = NumberToTextConverter.toText(c.getNumericCellValue());
